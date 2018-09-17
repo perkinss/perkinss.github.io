@@ -27,7 +27,7 @@ h1 {
     color: red;
 }
 .jumbotron-bg {
-    background-image: url("mages/smokeyDayBySperkins.jpg");
+    background-image: url("../images/smokeyDayBySperkins.jpg");
     background-size: cover;
 }
 .jumbo-icons {
