@@ -27,7 +27,7 @@ h1 {
     color: red;
 }
 .jumbotron-bg {
-    background-image: url("/Users/susan.perkins/webResumeRepos/resume1/perkinss.github.io/images/smokeyDayBySperkins.jpg");
+    background-image: url("mages/smokeyDayBySperkins.jpg");
     background-size: cover;
 }
 .jumbo-icons {
