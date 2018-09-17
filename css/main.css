@@ -1,7 +1,4 @@
-body {
-    margin: 60px auto;
-    width: 70%;
-}
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -12,16 +9,29 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
-a {
+.link {
+    color: #334033;
+    font-weight: bolder;
+}
+.link:hover {
+    color: darkolivegreen;
     text-decoration: none;
-    color: #999;
+    opacity: .75;
 }
 a:hover {
-    text-decoration: underline;
+    opacity: .75;
 }
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: red;
+}
+.jumbotron-bg {
+    background-image: url("/Users/susan.perkins/webResumeRepos/resume1/perkinss.github.io/images/smokeyDayBySperkins.jpg");
+    background-size: cover;
+}
+.jumbo-icons {
+    font-size: 1.7em;
 }
 p {
     font-size: 1.5em;
@@ -33,11 +43,21 @@ footer {
     font-size: .8em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
+ul.posts {
+    margin: 20px auto 40px;
     font-size: 1.5em;
 }
 
 ul.posts li {
     list-style: none;
 }
+
+.lighter {
+    opacity: .5;
+    font-size: .5em;
+}
+
+td {
+    padding: 10px;
+}
+
