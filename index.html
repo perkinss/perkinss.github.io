@@ -13,7 +13,7 @@
 <div class="jumbotron jumbotron-bg">
 
     <h1 class="display-4">Susan H. Perkins</h1>
-        <p class="lead">Full Stack Software Engineer, EIT (Engineer in Training) member of the provincial professional association (EGBC).</p>
+        <p class="lead">Senior Full Stack Software Developer</p>
         <hr class="my-4">
         <ul class="nav ">
             <li class="p-3"><a href="mailto:perkins.susan@gmail.com"><i class="fas fa-envelope jumbo-icons link"></i> </a></li>
@@ -28,6 +28,7 @@
         <div class="col-10 text-justify">
             <h2>Over ten years of experience, specializing in:</h2>
             <ul>
+                <li>Scaling out SaaS enterprise applications</li>
                 <li>Agile software processes with Scrum and Scrum Agile Framework for enterprise (SAFe)</li>
                 <li>Scientific and Bioinformatic application development</li>
                 <li>Full stack software design and development</li>
@@ -35,6 +36,11 @@
 
             <h2>Selected Highlights</h2>
             <ul>
+                <li>Created an event based microservice to take the heavy lifting of reporting queries out of the main application database and put it into the cloud, using
+                    Rails jobs, a kafka queue, Flink Stateful Functions deployed on GKE, BigQuery, and Looker dashboard widgets.  This improved the general performance of reporting
+                    as well as the rest of the application that was slowed by the database bandwidth taken up by reporting queries.
+                </li>
+                <li>Fixed some bugs in the core enterprise code base that sped up our client's batch employee data import by orders of magnitude: An import with 250,000+ entries went from 72 hours to 2 hours.</li>
                 <li>Designed, developed and deployed a new React and NodeJS-based application for e-filing with the BC Court of Appeal,
                     deployed on OpenShift and secured behind SiteMinder.</li>
                 <li>Transformed an aging application built in JavaScript to a very snappy user-friendly interface using
@@ -102,7 +108,6 @@
                 </tr>
             </table>
             <h2>Education and Courses</h2>
-
             <div class="row">
                 <div class="col">Bachelor of Software Engineering (with Distinction)</div>
                 <div class="col">2007</div>
@@ -110,6 +115,9 @@
                 <div class="col">Victoria BC</div>
             </div>
             <h3>Company Sponsored Training</h3>
+            <div class="row">
+                <div class="col">AWS Certified Architect Associate Training</div><div class="col">2020</div>
+            </div>
             <div class="row">
                 <div class="col">Workplace Communications</div><div class="col">2017</div>
             </div>
@@ -122,12 +130,12 @@
             <h2>Skills Inventory</h2>
             <h3>Languages, Libraries, and Platforms:</h3>
             <div class="row">
-                <div class="col">Groovy on Grails, Java, React.js + Redux, Typescript, JavaScript, SQL & CQL, Ruby on Rails, Objective C, C, C++, Docker, Kubernetes, Openshift.
+                <div class="col">Groovy on Grails, Java, React.js + Redux, Typescript, JavaScript, SQL & CQL, Ruby on Rails, Objective C, C, C++, Docker, Kubernetes, Heroku, AWS, GCP, Openshift.
                 </div>
             </div>
             <h3>Application and DB Servers:</h3>
             <div class="row">
-                <div class="col">Postgres 9.6, Oracle 11, Tomcat, Heroku, Cassandra, AWS
+                <div class="col">Postgres, MySQL, Oracle, Tomcat, Cassandra
                 </div>
             </div>
         </div>
