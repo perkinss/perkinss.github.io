@@ -28,6 +28,7 @@
         <div class="col-10 text-justify">
             <h2>Over ten years of experience, specializing in:</h2>
             <ul>
+                <li>Scaling out SaaS enterprise applications</li>
                 <li>Agile software processes with Scrum and Scrum Agile Framework for enterprise (SAFe)</li>
                 <li>Scientific and Bioinformatic application development</li>
                 <li>Full stack software design and development</li>
@@ -35,6 +36,11 @@
 
             <h2>Selected Highlights</h2>
             <ul>
+                <li>Created an event based microservice to take the heavy lifting of reporting queries out of the main application database and put it into the cloud, using
+                    Rails jobs, a kafka queue, Flink Stateful Functions deployed on GKE, BigQuery, and Looker dashboard widgets.  This improved the general performance of reporting
+                    as well as the rest of the application that was slowed by the database bandwidth taken up by reporting queries.
+                </li>
+                <li>Fixed some bugs in the core enterprise code base that sped up our client's batch employee data import by orders of magnitude: An import with 250,000+ entries went from 72 hours to 2 hours.</li>
                 <li>Designed, developed and deployed a new React and NodeJS-based application for e-filing with the BC Court of Appeal,
                     deployed on OpenShift and secured behind SiteMinder.</li>
                 <li>Transformed an aging application built in JavaScript to a very snappy user-friendly interface using
